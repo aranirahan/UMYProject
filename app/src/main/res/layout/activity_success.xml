@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="235dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="@string/yes_event_anda_telah_didaftarkan"
+        android:textColor="#2CD483"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="@string/silakan_tunggu_email_konfirmasi_dari_kami"
+        android:textColor="#7D7D7D"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_back_to_menu"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="88dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:text="@string/back_to_main_menu"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/bg_rectangle_main" />
+
+    </RelativeLayout>
+</LinearLayout>

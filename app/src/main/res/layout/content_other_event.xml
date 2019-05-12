@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="240dp"
+    android:orientation="vertical"
+    android:layout_marginRight="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_marginEnd="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+
+        <ImageView
+            android:id="@+id/iv_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:background="@drawable/ic_launcher_background"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_thumb">
+
+            <TextView
+                android:id="@+id/tv_team"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:text="BIRO UMUM"
+                android:textColor="#FEC32B"
+                android:textSize="10sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:text="Milad Fakultas Ilmu Pemerint"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_team" />
+
+            <View
+                android:id="@+id/v_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="#e0e0e0"
+                app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+            <ImageView
+                android:id="@+id/iv_time"
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ic_launcher_background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/v_line" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="Senin, 2 Februari 2019 - 14:00"
+                android:textColor="#424242"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_time"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/iv_time"
+                app:layout_constraintTop_toTopOf="@id/iv_time" />
+
+            <ImageView
+                android:id="@+id/iv_place"
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ic_launcher_background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_time" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="AR Fakhruddin B Lantai 5"
+                android:textColor="#424242"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_place"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/iv_place"
+                app:layout_constraintTop_toTopOf="@id/iv_place" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

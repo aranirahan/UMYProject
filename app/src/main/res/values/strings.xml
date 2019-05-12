@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">UMYProject</string>
+    <string name="umy">UMY</string>
+    <string name="umy_update">UMY UPDATE</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="login">login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="copyright_by_bhp_umy_nall_right_reserved">Copyright by BHP UMY \nAll Right Reserved</string>
+    <string name="bem_fakultas_teknik">BEM Fakultas Teknik</string>
+    <string name="daftar_event">Daftar Event</string>
+    <string name="cek_jadwal">Cek Jadwal</string>
+    <string name="booked">Booked</string>
+    <string name="my_event">My Event</string>
+    <string name="see_all_events">see all events</string>
+    <string name="universitas_muhammadiyah_yogyakarta">Universitas\nMuhammadiyah\nYogyakarta</string>
+    <string name="malam_puncak_milad_umy_38_2019_m_1440_h">Malam Puncak Milad UMY 38 2019 M - 1440 H</string>
+    <string name="jumat_15_februari_2019">Jumat. 15 Februari 2019</string>
+    <string name="_19_00_22_00">19.00 - 22.00</string>
+    <string name="detail">Detail</string>
+    <string name="other_event">Other Event</string>
+    <string name="news">News</string>
+    <string name="sportorium_umy">Sportorium UMY</string>
+    <string name="yes_event_anda_telah_didaftarkan">Yes!\nEvent anda telah didaftarkan</string>
+    <string name="silakan_tunggu_email_konfirmasi_dari_kami">Silakan tunggu email konfirmasi dari kami</string>
+    <string name="back_to_main_menu">Back to main menu</string>
+    <string name="nama_event">Nama Event</string>
+    <string name="next">Next</string>
+</resources>

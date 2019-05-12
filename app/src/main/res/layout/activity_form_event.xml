@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="@font/roboto_light_italic"
+        android:textColorHint="#BDBDBD"
+        android:hint="@string/nama_event"
+        android:paddingStart="10dp"
+        android:textColor="#000000"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/bg_border_box_3dp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="@font/roboto_light_italic"
+        android:textColorHint="#BDBDBD"
+        android:hint="Jenis Event"
+        android:paddingStart="10dp"
+        android:textColor="#000000"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/bg_border_box_3dp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="@font/roboto_light_italic"
+        android:textColorHint="#BDBDBD"
+        android:hint="Tanggal"
+        android:paddingStart="10dp"
+        android:textColor="#000000"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/bg_border_box_3dp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="@font/roboto_light_italic"
+        android:textColorHint="#BDBDBD"
+        android:hint="Waktu"
+        android:paddingStart="10dp"
+        android:textColor="#000000"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/bg_border_box_3dp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="@font/roboto_light_italic"
+        android:textColorHint="#BDBDBD"
+        android:hint="Tempat"
+        android:paddingStart="10dp"
+        android:textColor="#000000"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/bg_border_box_3dp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="@font/roboto_light_italic"
+        android:textColorHint="#BDBDBD"
+        android:hint="Bintang Tamu (opsional)"
+        android:paddingStart="10dp"
+        android:textColor="#000000"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/bg_border_box_3dp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="@font/roboto_light_italic"
+        android:textColorHint="#BDBDBD"
+        android:hint="Nomor kontak panitia"
+        android:paddingStart="10dp"
+        android:textColor="#000000"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/bg_border_box_3dp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:text="@string/next"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rectangle_main" />
+
+</LinearLayout>
